@@ -17,6 +17,7 @@ GitHub Repo: https://github.com/maahirtaneja/Online-Voting-System
 ---
 
 ## 📁 Folder Structure
+```
 
 Online-Voting-System/
 │
@@ -31,7 +32,7 @@ Online-Voting-System/
 │ └── .env
 │
 └── README.md
-
+```
 
 ---
 
@@ -79,13 +80,13 @@ Online-Voting-System/
    cd frontend
    ```
 2. Install dependencies:
-```bash
-  npm install
-```
+   ```bash
+   npm install
+    ```
 3. Start the React app:
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 App will run on: http://localhost:5173
 
 ---
@@ -102,14 +103,14 @@ App will run on: http://localhost:5173
    npm install
    ```
 3. Create a .env file in the backend directory with the following content:
-```bash
-  PORT=4000
+   ```bash
+  PORT=4000 
   DATABASE_URI=mongodb://localhost:27017/Voting_system
-```
+  ``
 4. Start the backend server:
-```bash
-node server.js
-```
+   ```bash
+   node server.js
+   ```
 The backend will run at: http://localhost:4000
 
 ---
