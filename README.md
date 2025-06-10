@@ -94,7 +94,6 @@ App will run on: http://localhost:5173
 ### 🛠️ Backend (Node + Express)
 
 1. Navigate to backend:
-
    ```bash
    cd backend
    ```
@@ -104,9 +103,8 @@ App will run on: http://localhost:5173
    ```
 3. Create a .env file in the backend directory with the following content:
    ```bash
-  PORT=4000 
-  DATABASE_URI=mongodb://localhost:27017/Voting_system
-  ```
+   PORT=4000 
+   DATABASE_URI=mongodb://localhost:27017/Voting_system
 4. Start the backend server:
    ```bash
    node server.js
