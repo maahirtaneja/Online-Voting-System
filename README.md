@@ -106,7 +106,7 @@ App will run on: http://localhost:5173
    ```bash
   PORT=4000 
   DATABASE_URI=mongodb://localhost:27017/Voting_system
-  ``
+  ```
 4. Start the backend server:
    ```bash
    node server.js
